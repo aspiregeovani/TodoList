@@ -6,19 +6,18 @@ class TodoListLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Column(
-        children: [
-          Image.asset(
-            'assets/logo.png',
-            height: 200,
-          ),
-          Text(
-            'Todo List',
-            style: context.textTheme.headline6,
-          ),
-        ],
-      ),
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Image.asset(
+          'assets/logo.png',
+          height: 200,
+        ),
+        Text(
+          'Todo List',
+          style: context.textTheme.headline6,
+        ),
+      ],
     );
   }
 }
