@@ -24,7 +24,7 @@ class HomeDrawer extends StatelessWidget {
                 Selector<AuthProvider, String>(
                     selector: (context, authProvider) {
                   return authProvider.user?.photoURL ??
-                      'https://avatars.githubusercontent.com/u/58203993?v=4';
+                      'https://i.imgur.com/QdhNRtQ.png';
                 }, builder: (_, value, __) {
                   return CircleAvatar(
                     backgroundImage: NetworkImage(value),
